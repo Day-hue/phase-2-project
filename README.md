@@ -76,3 +76,6 @@ This dataset supplements IMDb data with information about popularity and audienc
 **vote_average and vote_count:** Audience ratings and engagement metrics.
 
 **release_date:** Exact release date, supporting seasonal and trend analysis.
+These multiple dataset will enable us to do our analysis with no problems
+
+# Results
