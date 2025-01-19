@@ -20,7 +20,7 @@ Your company now sees all the big companies creating original video content and 
 Our ultimate goal is to ensure that the company  is able to make informed, risk-averse and profitable choices when expanding into this industry.
 
 # Data
-You can find the data used for this analysis in our data folder:https://github.com/Day-hue/phase-2-project/tree/main/Data
+You can find the data used for this analysis in our data folder:[Dataset](https://github.com/Day-hue/phase-2-project/tree/main/Data)
 
 ### Data Description:
 ####  IMDb: Movie Basics
@@ -399,7 +399,7 @@ The features are listed on the y-axis, and their importance is indicated by the 
 
 ## Link to the Non technical Presentation
 
-[Non technical presentation](https://github.com/Day-hue/phase-2-project/blob/main/Strategic%20Insights%20for%20Film%20Studio%20Success.pptm)
+[Non technical presentation](https://github.com/Day-hue/phase-2-project/blob/main/Strategic%20Insights%20for%20Film%20Studio%20Success.pdf)
 
 ## Link to Tableau
 [Tableau Dashboard](https://public.tableau.com/app/profile/nikita.samba/viz/movies_17373028779880/Dashboard1?publish=yes)
