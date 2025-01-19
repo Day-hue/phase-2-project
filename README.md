@@ -315,9 +315,95 @@ Model Evaluation Metrics
  * In this case, the dots are clustered closely around the red line, indicating a strong correlation between predicted and actual prices. This suggests the model is performing well in predicting prices.
    
  ### Residuals
+![residual plot for xg boost](https://github.com/Day-hue/phase-2-project/blob/main/Charts/residualplotxgboost.PNG)
 
+**This is a residual plot, a crucial diagnostic tool used in regression analysis to assess the quality of a model's fit.**
 
+**Explanation:**
+ * The x-axis represents the predicted values from the regression model.
+ * The y-axis represents the residuals, which are the differences between the actual observed values and the predicted values.
+ * The red line represents the zero line, indicating where residuals would be if the model perfectly predicted all data points.
+
+**Interpretation:**
+ * **Randomness:**
+   * Ideally, the points in a residual plot should be randomly scattered around the zero line without any discernible pattern. This indicates that the model's errors are random, which is a key assumption in regression analysis.
+
+ * **Homoscedasticity:**
+   * The spread of the residuals should be relatively constant across the entire range of predicted values. This means the model's accuracy is consistent across different levels of the predictor variables.
+
+ * **No Outliers:**
+   * Extreme outliers can significantly affect the regression model's fit.
+
+**In this particular graph:**
+ * The residuals appear to be randomly scattered around the zero line with no obvious patterns, suggesting the model is a good fit.
+ *  The spread of the residuals appears to be fairly constant, indicating homoscedasticity.
+ * There might be a few potential outliers, but overall, the plot suggests the regression model is a good fit for the data.
+
+ ## Normality Assumption
+
+ ![Normality assumption](https://github.com/Day-hue/phase-2-project/blob/main/Charts/normalityassumption.PNG)
+
+ **This is a kernel density plot of residuals from an XGBoost model.**
+
+**Explanation:**
+ * **Kernel density estimation (KDE):**
+    * This is a method to visualize the distribution of a dataset by smoothing out individual data points into a continuous curve.
+
+ * **Residuals:**
+   * These are the differences between the actual values and the values predicted by the model.
+
+ * **XGBoost:**
+   * This is a powerful machine learning algorithm known for its accuracy and speed.
+
+**Interpretation:**
+ * **Shape:**
+   * The plot shows a sharp peak around zero, indicating that most predictions are close to the actual values. This is desirable, as it suggests the model is making accurate predictions.
+
+ * **Tails:**
+   * The tails of the distribution are relatively thin, meaning there are few extreme residuals (large prediction errors). This is also a good sign, as it indicates that the model is performing well even on data points that are different from the ones it was trained on.
+
+**Symmetry:**
+The distribution is nearly symmetrical, which indicates that the model is not biased towards over-predicting or under-predicting.
+
+## Feature Importance 
+
+![feature importance](https://github.com/Day-hue/phase-2-project/blob/main/Charts/featureimportance.PNG) 
+
+This feature importance graph shows the relative importance of different features in a machine learning model. 
+
+The features are listed on the y-axis, and their importance is indicated by the length of the bars on the x-axis. 
+
+**Interpretation:** 
+
+ * **Top Features:**
+   * The most important feature in this model is "Budget_Category_Low," followed closely by "Budget_Category_Medium." 
+   * This suggests that the budget category of a movie plays a significant role in predicting the target variable (which is not specified in the graph).
+ * **Other Important Features:**
+   * Features like "domestic_gross," "ROI," and "worldwide_gross" also have a notable impact on the model's predictions.
+
+ * **Least Important Features:**
+   * Features at the bottom of the graph, such as "movie_rating_low" and "Profit_Margin," have minimal influence on the model's predictions. 
+
+**Uses of this Graph:**
+
+ * **Feature Selection:** 
+   * This graph can help you select the most relevant features for your model. You might choose to keep only the top few features, or experiment with different combinations to find the optimal set. 
+
+ * **Model Understanding:**
+   * By examining the feature importance, you can gain insights into how the model makes predictions and which factors are most influential. 
  
+ * **Communication:**
+   * This graph can be used to communicate the model's behavior to stakeholders, helping them understand which features are driving the predictions. 
+
+## Link to the Jupyter Notebook 
+
+![Jupyter Notebook File](https://github.com/Day-hue/phase-2-project/blob/main/Group%203%20Jupyter%20Notebook%20file.ipynb)
+
+## Link to the Non technical Presentation
+
+![Non technical presentation](https://github.com/Day-hue/phase-2-project/blob/main/Strategic%20Insights%20for%20Film%20Studio%20Success.pptm)
+
+## Link to Tableau
 
 
 
