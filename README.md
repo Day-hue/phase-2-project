@@ -254,6 +254,70 @@ While higher ratings generally lead to better revenue, there is no absolute guar
 Overall, the graph illustrates the accuracy of the regression models in predicting the target variable.
 
 ## Residuals
+![residuals plot](https://github.com/Day-hue/phase-2-project/blob/main/Charts/residualsplot.PNG)
+
+**Understanding Residual Plots**
+ * A residual plot is a diagnostic tool used in regression analysis to assess the quality of the model fit. 
+ * It plots the residuals (the difference between the observed values and the predicted values) on the vertical axis against the predicted values on the horizontal axis.
+
+**Ideal Residual Plot**
+ * In an ideal scenario, the points in a residual plot should be randomly scattered around the horizontal line at zero, indicating that the model's errors are random and have a mean of zero. 
+ * This suggests that the model is capturing the underlying pattern in the data well.
+
+**Interpreting the Plots**
+
+ * **Linear Regressor:**
+   * The plot shows a slight funnel shape, indicating that the model's errors are not constant across the range of predicted values. There might be some non-linearity in the data that the linear model is not capturing.
+
+ * **LGBM Regressor:**
+   * This plot shows a relatively random pattern, indicating a good fit for the model. However, there are a few outliers, which are points that are far away from the zero line. These outliers might be due to unusual data points or errors in the data.
+
+ * **CatBoost Regressor:**
+   * This plot is similar to the LGBM Regressor, indicating a good fit with a few outliers.
+
+ * **XGB Regressor:**
+   * The plot shows a similar pattern to the LGBM and CatBoost Regressors, indicating a good fit with a few outliers.
+
+**Overall Interpretation**
+ * Based on the residual plots, all four models seem to provide a reasonable fit to the data.
+ * However, the non-linear pattern observed in the Linear Regressor plot suggests that a more complex model might be able to capture the data better. 
+ * The LGBM, CatBoost, and XGB Regressors all show a random pattern, indicating that they are capturing the underlying patterns in the data well. 
+ * However, the presence of outliers suggests that further investigation of these data points might be necessary.
+
+
+# xgboost Model
+Model Evaluation Metrics
+
+| Metric             | Value   | Interpretation                                                                 |
+|--------------------|---------|-------------------------------------------------------------------------------|
+| **MAE**            | 0.22    | On average, predictions are **0.22 units** away from actual values. Good result! ✅ |
+| **MSE**            | 0.27    | Low MSE indicates small squared errors, meaning the model makes few large mistakes. ✅ |
+| **RMSE**           | 0.52    | Predictions deviate **by about 0.52 units** from actual values on average. A lower RMSE is ideal. ✅ |
+| **MAPE**           | 1.57%   | Model's average percentage error is **1.57%**, meaning it's **highly accurate**. ✅ |
+| **R²**             | 0.92    | The model explains **92% of the variance** in the target variable, indicating a **strong fit**. ✅ |
+| **Adjusted R²**    | 0.92    | High value confirms the model is effective **even after adjusting for multiple predictors**. ✅ |
+
+**Overall Evaluation:**
+- **The model is performing very well** with an **R² of 0.92**, meaning it explains **92% of the variation** in the target variable.
+- **Low error values (MAE = 0.22, RMSE = 0.52, MAPE = 1.57%)** indicate high accuracy.
+- **Adjusted R² = 0.92** suggests that adding more features didn’t significantly degrade performance.
+- 
+## Model Evaluation
+### Predicted vs Actual
+
+![Predicted vs Actual](https://github.com/Day-hue/phase-2-project/blob/main/Charts/predictedvsactualxgboost.PNG)
+**This scatter plot compares actual prices to predicted prices, likely from a predictive model.**
+
+**Interpretation:**
+ * The red dashed line represents the ideal scenario: where the predicted price perfectly matches the actual price.
+ * The blue dots represent individual data points, showing the actual price on the x-axis and the corresponding predicted price on the y-axis.
+ * The closer the blue dots are to the red line, the more accurate the predictions are.
+ * In this case, the dots are clustered closely around the red line, indicating a strong correlation between predicted and actual prices. This suggests the model is performing well in predicting prices.
+   
+ ### Residuals
+
+
+ 
 
 
 
