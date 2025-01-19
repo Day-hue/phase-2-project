@@ -253,4 +253,12 @@ While higher ratings generally lead to better revenue, there is no absolute guar
 
 Overall, the graph illustrates the accuracy of the regression models in predicting the target variable.
 
+## Residuals
+
+
+
+
+
+
+
 
