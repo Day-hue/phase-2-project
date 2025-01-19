@@ -189,4 +189,68 @@ While higher ratings generally lead to better revenue, there is no absolute guar
 
 # Modeling 
 
+![modeling results](https://github.com/Day-hue/phase-2-project/blob/main/Charts/modeling.PNG)
+
+**The table above compares the performance of different regression models based on several evaluation metrics.** 
+
+**Metrics:**
+
+ * **MAE (Mean Absolute Error):**
+   * Represents the average absolute difference between the predicted and actual values. Lower MAE indicates better accuracy.
+
+ * **MSE (Mean Squared Error):**
+   * Measures the average squared difference between the predicted and actual values. MSE gives higher weight to larger errors.
+
+ * **RMSE (Root Mean Squared Error):**
+   * The square root of MSE, providing an interpretable metric in the same units as the target variable. Lower RMSE indicates better accuracy.
+
+ * **MAPE (Mean Absolute Percentage Error):**
+   * Represents the average percentage difference between the predicted and actual values. Lower MAPE indicates better accuracy.
+
+ * **R2 (R-squared):**
+   * Measures the proportion of variance in the target variable that is explained by the model. Higher R2 indicates a better fit.
+
+ * **Training Time (s):**
+   * The time taken by the model to train on the data.
+
+ * **Prediction Time (s):**
+   * The time taken by the model to make predictions on new data.
+
+**Interpretation:**
+
+ * **CatBoost Regressor:**
+   * Achieves the lowest MAE, MSE, RMSE, and MAPE, indicating the best overall performance in terms of accuracy. However, it has the longest training time.
+
+ * **LGBM Regressor:**
+   * Performs well across all metrics, with a slightly higher MAE and RMSE compared to CatBoost. It has a faster training time than CatBoost but slower than XGBoost.
+
+ * **XGBoost Regressor:**
+   * Performs similarly to LGBM Regressor, with slightly higher errors. It has the fastest training time among the three.
+
+ * **Linear Regressor:**
+   * Has the highest errors across all metrics, indicating the least accurate performance. It has a relatively fast training time.
+
+## Visualization of the best model
+
+![Visualization of the best model](https://github.com/Day-hue/phase-2-project/blob/main/Charts/bestmodel.PNG)
+
+## prediction vs actual for all the models
+
+![Prediction vs actual for the models](https://github.com/Day-hue/phase-2-project/blob/main/Charts/predictionvsactualvalues.PNG)
+
+**The graph showcases the performance of four different regression models by comparing their predicted values to the actual values.**
+
+**Interpretation:**
+
+ * **Ideal Scenario:**
+   * The red dashed line represents the perfect prediction where predicted values equal actual values. The closer the data points are to this line, the better the model's performance.
+
+ * **Model Performance:**
+   * All four models demonstrate good performance, with the data points closely aligned with the diagonal line. This suggests that the models are accurately predicting the target variable.
+
+ * **Comparison:**
+   * Among the four, the XGB Regressor seems to have the tightest clustering of points around the diagonal line, indicating it might be the most accurate model in this comparison.
+
+Overall, the graph illustrates the accuracy of the regression models in predicting the target variable.
+
 
