@@ -121,6 +121,9 @@ The right side (high-budget films) has a narrower spread in ROI, suggesting that
  * Low-budget films have higher profit potential but higher risk. Some achieve massive ROI, while others fail entirely.
  * Medium-budget films might offer a balance. Further analysis of budget categories is needed to determine an optimal investment range.
 
+## Relationship between Ratings and Revenue 
+
+
 
 
 
