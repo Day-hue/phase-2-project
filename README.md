@@ -399,7 +399,7 @@ The features are listed on the y-axis, and their importance is indicated by the 
 
 ## Link to the Non technical Presentation
 
-[Non technical presentation](https://github.com/Day-hue/phase-2-project/blob/main/Strategic%20Insights%20for%20Film%20Studio%20Success.pptm)
+[Non technical presentation](https://github.com/Day-hue/phase-2-project/blob/main/Strategic%20Insights%20for%20Film%20Studio%20Success.pdf)
 
 ## Link to Tableau
 [Tableau Dashboard](https://public.tableau.com/app/profile/nikita.samba/viz/movies_17373028779880/Dashboard1?publish=yes)
