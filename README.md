@@ -80,6 +80,8 @@ These multiple dataset will enable us to do our analysis with no problems
 
 we'd then combine the dataset to one
 # Results
+## Top 10 Genres by Total Gross and Average ROI
+
 ![Genre vs ROI](https://github.com/Day-hue/phase-2-project/blob/main/Charts/genrevsGrossandROI.PNG)
 
 **1. Budget Recommendation**
@@ -91,5 +93,35 @@ Focus on production budgets between 10 million usd  and 40 million usd , alignin
 Focus on producing high-revenue films in Adventure, Action, and Drama genres to target global audiences, incorporating occasional high-budget blockbusters for significant market impact, while leveraging Horror and Animation genres for low-risk, high-ROI projects to ensure a balanced and profitable portfolio.
 
 ## ROI vs Production Budget
+
+![ ROI vs Production Budget](https://github.com/Day-hue/phase-2-project/blob/main/Charts/roivsbudget.PNG)
+
+**Key Observations:** 
+
+**Negative Correlation Between Budget and ROI**
+
+As the production budget increases (moving right along the X-axis), the ROI generally decreases, clustering near zero.
+High-budget movies (above 100 million) show lower ROI, meaning they do not always generate proportionally high profits.
+
+**High ROI for Low-Budget Films**
+
+Some low-budget films (left side of the plot) show extremely high ROI, suggesting that low-budget films can be highly profitable.
+
+**Wide ROI Variability in Low-Budget Films**
+
+The leftmost side of the plot (low-budget films) has a large spread in ROI, meaning some films generate very high returns while others fail.
+
+**Stable ROI for High-Budget Films**
+
+The right side (high-budget films) has a narrower spread in ROI, suggesting that blockbuster movies have more predictable but lower returns.
+
+**Insights & Implications:**
+
+ * Higher budgets do not guarantee high ROI. Studios should carefully analyze the risk of large investments.
+ * Low-budget films have higher profit potential but higher risk. Some achieve massive ROI, while others fail entirely.
+ * Medium-budget films might offer a balance. Further analysis of budget categories is needed to determine an optimal investment range.
+
+
+
 
 
