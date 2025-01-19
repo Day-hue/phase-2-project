@@ -187,4 +187,6 @@ High engagement likely leads to higher revenue, but marketing, production budget
 
 While higher ratings generally lead to better revenue, there is no absolute guarantee of success. Successful films often rely on a combination of quality, marketing, franchise value, and audience reach. Studios should adopt a balanced strategy, focusing not just on critic scores but also on audience preferences, effective distribution, and strong marketing efforts.
 
+# Modeling 
+
 
