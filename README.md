@@ -123,8 +123,68 @@ The right side (high-budget films) has a narrower spread in ROI, suggesting that
 
 ## Relationship between Ratings and Revenue 
 
+![Ratings vs Revenue](https://github.com/Day-hue/phase-2-project/blob/main/Charts/ratingsvsrevenue.PNG)
+
+Variance in Revenue: While higher-rated movies tend to earn more, the spread of revenue is wide at each rating level, meaning other factors (e.g., budget, marketing) also influence earnings.
+
+High Revenue Outliers: Some movies with ratings around 6-8 have exceptionally high revenues (over 1 billion), likely representing blockbuster hits.
+
+Interpretation:
+
+Movies with higher ratings generally earn more revenue, but ratings alone are not a strong predictor of box office success.
+
+Other factors such as franchise value, marketing, and production budget significantly impact earnings.
+
+## Audience Engagement and Box Office Performance
+
+![Audience Engagement vs Revenue](https://github.com/Day-hue/phase-2-project/blob/main/Charts/audienceengagementvsrevenue.PNG)
+
+Interpretation and Insights: Stronger Correlation Than Ratings vs. Revenue
+
+Unlike average ratings (which had a weak effect on revenue), the number of votes shows a clearer upward trend.
+More engagement often means a larger audience, leading to higher revenue.
+Popular Movies Are More Profitable
+
+Movies with a high number of votes tend to generate more revenue.
+This suggests that audience size (engagement) is a better predictor of box office success than just the rating score.
+Outliers Exist
+
+Some movies with low votes still have high revenue (possibly due to marketing, franchise popularity, or blockbuster status).
+Some movies with high votes but lower revenue might have gained popularity post-theatrical release (e.g., cult classics or streaming success).
+Causation vs. Correlation
+
+High engagement likely leads to higher revenue, but marketing, production budget, and franchise status also contribute significantly.
 
 
+## **Key Takeaways**
+ * High-rated movies generally earn more revenue, but the advantage is not absolute.
+   * While median revenue increases with rating, the presence of high-revenue outliers in both average- and low-rated films suggests that other factors (e.g., budget, marketing, franchise strength) play a critical role.
 
+* Some low-rated films can still perform well.
+   * The presence of outliers in the "Low" category suggests that certain movies succeed despite poor reviews—possibly due to strong marketing, established fan bases, or niche appeal.
+
+* The “Average” rating category has the highest variation.
+   * Many blockbusters fall into this category, showing that critical reception is not the only predictor of financial success.
+
+## **Recommendations for the Film Industry**
+1. Invest in High-Quality Productions (But Don't Ignore Other Factors)
+ * Since higher-rated movies tend to perform better on average, studios should prioritize quality storytelling, strong scripts, and production value.
+ * However, high ratings do not guarantee high revenue, so marketing and distribution strategies remain crucial.
+
+2. Focus on Marketing and Franchise Potential
+ * Some low-rated movies (outliers) achieve high revenue, likely due to franchise popularity or strong branding (e.g., superhero movies, action franchises).
+ * Marketing campaigns, strategic release timing, and audience engagement play a crucial role in box office performance.
+
+3. Target Broad Audiences for Mid-Tier Movies
+ * Mid-rated films (5-7/10 range) still have strong revenue potential.
+ * Instead of focusing only on critic scores, studios should leverage audience preferences, genre appeal, and accessibility to maximize profits.
+
+4. Utilize Streaming and Digital Platforms
+* Movies that do not perform well in theaters can gain popularity post-release through streaming services, leading to increased revenue over time.
+ * Investing in alternative revenue streams (digital rentals, merchandise, special editions) can boost profitability for movies that underperform in theaters.
+
+**Final Thoughts**
+
+While higher ratings generally lead to better revenue, there is no absolute guarantee of success. Successful films often rely on a combination of quality, marketing, franchise value, and audience reach. Studios should adopt a balanced strategy, focusing not just on critic scores but also on audience preferences, effective distribution, and strong marketing efforts.
 
 
