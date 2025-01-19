@@ -191,8 +191,6 @@ While higher ratings generally lead to better revenue, there is no absolute guar
 
 ![modeling results](https://github.com/Day-hue/phase-2-project/blob/main/Charts/modeling.PNG)
 
-**The table above compares the performance of different regression models based on several evaluation metrics.** 
-
 **Metrics:**
 
  * **MAE (Mean Absolute Error):**
@@ -397,11 +395,11 @@ The features are listed on the y-axis, and their importance is indicated by the 
 
 ## Link to the Jupyter Notebook 
 
-![Jupyter Notebook File](https://github.com/Day-hue/phase-2-project/blob/main/Group%203%20Jupyter%20Notebook%20file.ipynb)
+[Jupyter Notebook](https://github.com/Day-hue/phase-2-project/blob/main/Group%203%20Jupyter%20Notebook%20file.ipynb)
 
 ## Link to the Non technical Presentation
 
-![Non technical presentation](https://github.com/Day-hue/phase-2-project/blob/main/Strategic%20Insights%20for%20Film%20Studio%20Success.pptm)
+[Non technical presentation](https://github.com/Day-hue/phase-2-project/blob/main/Strategic%20Insights%20for%20Film%20Studio%20Success.pptm)
 
 ## Link to Tableau
 
