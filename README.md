@@ -20,7 +20,7 @@ Your company now sees all the big companies creating original video content and 
 Our ultimate goal is to ensure that the company  is able to make informed, risk-averse and profitable choices when expanding into this industry.
 
 # Data
-You can find the data used for this analysis in our data folder:https://github.com/Day-hue/phase-2-project/tree/main/Data
+You can find the data used for this analysis in our data folder:[Dataset](https://github.com/Day-hue/phase-2-project/tree/main/Data)
 
 ### Data Description:
 ####  IMDb: Movie Basics
