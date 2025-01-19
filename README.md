@@ -397,6 +397,8 @@ The features are listed on the y-axis, and their importance is indicated by the 
 
 [Jupyter Notebook](https://github.com/Day-hue/phase-2-project/blob/main/Group%203%20Jupyter%20Notebook%20file.ipynb)
 
+Pdf version:[Jupyter Notebook](https://github.com/Day-hue/phase-2-project/blob/main/Notebookpdf.pdf)
+
 ## Link to the Non technical Presentation
 
 [Non technical presentation](https://github.com/Day-hue/phase-2-project/blob/main/Strategic%20Insights%20for%20Film%20Studio%20Success.pdf)
