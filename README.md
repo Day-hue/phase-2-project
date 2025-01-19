@@ -80,7 +80,7 @@ These multiple dataset will enable us to do our analysis with no problems
 
 we'd then combine the dataset to one
 # Results
-![Genre vs ROI](Charts/genre vs ROI and T.Gross.PNG)
+![Genre vs ROI](https://github.com/Day-hue/phase-2-project/blob/main/Charts/genrevsGrossandROI.PNG)
 
 
 
